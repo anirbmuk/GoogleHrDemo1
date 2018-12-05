@@ -1,0 +1,144 @@
+{
+  "Departments" : {
+    "10" : {
+      "DepartmentId" : 10,
+      "DepartmentName" : "Administration",
+      "LocationId" : 1700,
+      "ManagerId" : 200
+    },
+    "20" : {
+      "DepartmentId" : 20,
+      "DepartmentName" : "Marketing",
+      "LocationId" : 1800,
+      "ManagerId" : 201
+    },
+    "30" : {
+      "DepartmentId" : 30,
+      "DepartmentName" : "Purchasing",
+      "LocationId" : 1700,
+      "ManagerId" : 114
+    },
+    "40" : {
+      "DepartmentId" : 40,
+      "DepartmentName" : "Human Resources",
+      "LocationId" : 2400,
+      "ManagerId" : 203
+    },
+    "50" : {
+      "DepartmentId" : 50,
+      "DepartmentName" : "Shipping",
+      "LocationId" : 1500,
+      "ManagerId" : 121
+    },
+    "60" : {
+      "DepartmentId" : 60,
+      "DepartmentName" : "IT",
+      "LocationId" : 1400,
+      "ManagerId" : 103
+    },
+    "70" : {
+      "DepartmentId" : 70,
+      "DepartmentName" : "Public Relations",
+      "LocationId" : 2700,
+      "ManagerId" : 204
+    },
+    "80" : {
+      "DepartmentId" : 80,
+      "DepartmentName" : "Sales",
+      "LocationId" : 2500,
+      "ManagerId" : 145
+    },
+    "90" : {
+      "DepartmentId" : 90,
+      "DepartmentName" : "Executive",
+      "LocationId" : 1700,
+      "ManagerId" : 100
+    }
+  },
+  "Employees" : {
+    "100" : {
+      "DepartmentId" : 90,
+      "Email" : "SKING",
+      "EmployeeId" : 100,
+      "FirstName" : "Steven",
+      "HireDate" : "17/06/2003",
+      "JobId" : "AD_PRES",
+      "LastName" : "King",
+      "PhoneNumber" : "515.123.4567",
+      "Salary" : 23000
+    },
+    "103" : {
+      "DepartmentId" : 60,
+      "Email" : "AHUNOLD",
+      "EmployeeId" : 103,
+      "FirstName" : "Alexander",
+      "HireDate" : "03/01/2006",
+      "JobId" : "IT_PROG",
+      "LastName" : "Hunold",
+      "ManagerId" : 102,
+      "PhoneNumber" : "590.423.4567",
+      "Salary" : 9000
+    },
+    "104" : {
+      "DepartmentId" : 60,
+      "Email" : "BERNST",
+      "EmployeeId" : 104,
+      "FirstName" : "Bruce",
+      "HireDate" : "21/05/2007",
+      "JobId" : "IT_PROG",
+      "LastName" : "Ernst",
+      "ManagerId" : 103,
+      "PhoneNumber" : "590.423.4568",
+      "Salary" : 6000
+    },
+    "120" : {
+      "DepartmentId" : 50,
+      "Email" : "MWEISS",
+      "EmployeeId" : 120,
+      "FirstName" : "Matthew",
+      "HireDate" : "18/07/2004",
+      "JobId" : "ST_MAN",
+      "LastName" : "Weiss",
+      "ManagerId" : 100,
+      "PhoneNumber" : "650.123.1234",
+      "Salary" : 8000
+    },
+    "145" : {
+      "CommissionPct" : 0.4,
+      "DepartmentId" : 80,
+      "Email" : "JRUSSEL",
+      "EmployeeId" : 145,
+      "FirstName" : "John",
+      "HireDate" : "01/10/2004",
+      "JobId" : "SA_MAN",
+      "LastName" : "Russell",
+      "ManagerId" : 100,
+      "PhoneNumber" : "011.44.1344.429268",
+      "Salary" : 14000
+    },
+    "200" : {
+      "DepartmentId" : 10,
+      "Email" : "JWHALEN",
+      "EmployeeId" : 200,
+      "FirstName" : "Jennifer",
+      "HireDate" : "17/09/2003",
+      "JobId" : "AD_PRES",
+      "LastName" : "Whalen",
+      "ManagerId" : 101,
+      "PhoneNumber" : "515.123.4444",
+      "Salary" : 4400
+    },
+    "201" : {
+      "DepartmentId" : 20,
+      "Email" : "MHARTSTE",
+      "EmployeeId" : 201,
+      "FirstName" : "Michael",
+      "HireDate" : "17/02/2004",
+      "JobId" : "MK_MAN",
+      "LastName" : "Hartstein",
+      "ManagerId" : 100,
+      "PhoneNumber" : "515.123.5555",
+      "Salary" : 13000
+    }
+  }
+}
