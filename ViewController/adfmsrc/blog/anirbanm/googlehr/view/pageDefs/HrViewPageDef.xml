@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.9.14" id="HrViewPageDef"
+                Package="blog.anirbanm.googlehr.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="DepartmentsPVO1" RangeSize="25" DataControl="GoogleHrModuleDataControl"
+              id="DepartmentsPVO1Iterator"/>
+    <iterator Binds="EmployeesPVO1" RangeSize="25" DataControl="GoogleHrModuleDataControl" id="EmployeesPVO1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="DepartmentsPVO1Iterator" id="DepartmentsPVO1">
+      <nodeDefinition DefName="blog.anirbanm.googlehr.model.vo.DepartmentsPVO" Name="DepartmentsPVO10">
+        <AttrNames>
+          <Item Value="DepartmentId"/>
+          <Item Value="DepartmentName"/>
+          <Item Value="ManagerId"/>
+          <Item Value="LocationId"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="EmployeesPVO1Iterator" id="EmployeesPVO1">
+      <nodeDefinition DefName="blog.anirbanm.googlehr.model.vo.EmployeesPVO" Name="EmployeesPVO10">
+        <AttrNames>
+          <Item Value="EmployeeId"/>
+          <Item Value="FirstName"/>
+          <Item Value="LastName"/>
+          <Item Value="Email"/>
+          <Item Value="HireDate"/>
+          <Item Value="JobId"/>
+          <Item Value="PhoneNumber"/>
+          <Item Value="Salary"/>
+          <Item Value="CommissionPct"/>
+          <Item Value="ManagerId"/>
+          <Item Value="DepartmentId"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <methodAction id="onDepartmentSelection" RequiresUpdateModel="true" Action="invokeMethod"
+                  MethodName="onDepartmentSelection" IsViewObjectMethod="false" DataControl="GoogleHrModuleDataControl"
+                  InstanceName="bindings.onDepartmentSelection.dataControl.dataProvider"/>
+  </bindings>
+</pageDefinition>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="GoogleHrModule"
+  Version="12.2.1.9.14"
+  InheritPersonalization="merge"
+  ComponentClass="blog.anirbanm.googlehr.model.am.GoogleHrModuleImpl"
+  ClearCacheOnRollback="true"
+  ComponentInterface="blog.anirbanm.googlehr.model.am.common.GoogleHrModule">
+  <DesignTime>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <Properties>
+    <SchemaBasedProperties>
+      <LABEL
+        ResId="blog.anirbanm.googlehr.model.am.GoogleHrModule_LABEL"/>
+    </SchemaBasedProperties>
+  </Properties>
+  <ViewUsage
+    Name="DepartmentsPVO1"
+    ViewObjectName="blog.anirbanm.googlehr.model.vo.DepartmentsPVO"/>
+  <ViewUsage
+    Name="EmployeesPVO1"
+    ViewObjectName="blog.anirbanm.googlehr.model.vo.EmployeesPVO"/>
+  <ClientInterface
+    Name="__clientInterface">
+    <Method
+      Name="initDepartments"
+      MethodName="initDepartments">
+      <Return
+        Name="_return_type_"
+        Type="void"/>
+    </Method>
+    <Method
+      Name="onDepartmentSelection"
+      MethodName="onDepartmentSelection">
+      <Return
+        Name="_return_type_"
+        Type="void"/>
+    </Method>
+  </ClientInterface>
+  <ResourceBundle>
+    <PropertiesBundle
+      PropertiesFile="blog.anirbanm.googlehr.model.ModelBundle"/>
+  </ResourceBundle>
+</AppModule>
