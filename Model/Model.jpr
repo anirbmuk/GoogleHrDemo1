@@ -200,7 +200,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <url n="id" path="../../Google-Lib/GoogleLib.library"/>
+            <url n="id" path="../lib/GoogleLib.library"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
@@ -281,7 +281,7 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <url n="id" path="../../Google-Lib/GoogleLib.library"/>
+            <url n="id" path="../lib/GoogleLib.library"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>

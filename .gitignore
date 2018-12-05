@@ -8,3 +8,5 @@
 /Model/classes
 /Model/deploy
 /Model/servers
+/lib/*.jar
+/lib/*.war
