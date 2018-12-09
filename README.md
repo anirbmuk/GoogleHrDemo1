@@ -6,4 +6,4 @@ Blog - https://adfsolutions.anirbanblogs.com/2018/12/oracle-adf-google-firebase-
 
 Refer to sample-data.json. This file can be imported into your firebase project.
 
-lib/GoogleLib.library file contains reference to all the Google Firebase SDK jars
+Refer to https://github.com/anirbmuk/GoogleLib.git - this project can be built into a war file which can be deployed as a standalone library. This library can be referenced in your application through weblogic-application.xml as "google-shard-lib"
